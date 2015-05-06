@@ -1,0 +1,3 @@
+#!/bin/bash
+#./start_databox && \
+docker run --name nginx --link aspnet:aspnet --link django:django --link rails:rails --link blog_ghost:blog -d --volumes-from proxy_databox -p 80:80 -p 443:443 philipz/docker-nginx-inotify

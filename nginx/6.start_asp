@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run --name aspnet -d -t philipz/aspnet5:latest

@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run  --name proxy_databox -v /home/ubuntu/nginx/config:/mnt -v /home/ubuntu/nginx/log:/var/log/nginx busybox:latest
