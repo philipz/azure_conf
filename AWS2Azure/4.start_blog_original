@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -d --name blog_ghost -p 80:2368 philipz/docker-ghost:0.1

@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run  -ti --name blog_databox -v /home/ubuntu/blogbox:/data -v /ghost-override philipz/databox:$1 tar xf ghost.tar
