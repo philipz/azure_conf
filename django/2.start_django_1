@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -it --rm --user "$(id -u):$(id -g)" -v "$PWD":/usr/src/app -w /usr/src/app django:latest django-admin.py startproject mysite

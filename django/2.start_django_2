@@ -1,0 +1,2 @@
+#!/bin/bash
+cd mysite && docker run --name django -v "$PWD":/usr/src/app -w /usr/src/app -p 80:8000 -d django bash -c "python manage.py runserver 0.0.0.0:8000"
